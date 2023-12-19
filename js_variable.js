@@ -10,8 +10,8 @@ console.log("value of let variable email="+email);
 console.log("value of city="+city);
 
 //pi=123;// error :cannot change the value of const variable
-username="bcasy";
-email="bcasy123@gmail.com";
+username="allen";
+email="allen123@gmail.com";
 city="surat";
 let ac_state;//without initializing value of variable and print this variable as result javascript gives "undefined"
 
