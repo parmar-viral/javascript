@@ -1,3 +1,4 @@
+/*
 console.log("boolean type to number.................")
 let bool=true;
 console.log("before converting type="+typeof(bool));
@@ -41,3 +42,15 @@ let n1=Number(n); //convert null type to number
 
 console.log("after converting type="+typeof n1);
 console.log("after converting n1="+n1+"\n");
+*/
+console.log("Number type to boolean................");
+let no=-1; //if no is 0 then boolean type value is false otherwise value is true
+console.log("before type of no="+typeof no+"    before value of no="+no);
+let no1=Boolean(no);
+console.log("after type of no1="+typeof no1+"   after value of no1="+no1);
+
+console.log("\nstring type to boolean..................");
+let S="1234"; //if an empty string then boolean type value if false otherwise it return true
+console.log("before type of S="+typeof S+"  before value of S="+S);
+let b=Boolean(S);
+console.log("after type of b="+typeof b+"  after value of b="+b);
