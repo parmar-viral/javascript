@@ -1,4 +1,5 @@
 /*
+console.log("*********************************************Conversions****************************************\n")
 console.log("boolean type to number.................")
 let bool=true;
 console.log("before converting type="+typeof(bool));
@@ -42,7 +43,7 @@ let n1=Number(n); //convert null type to number
 
 console.log("after converting type="+typeof n1);
 console.log("after converting n1="+n1+"\n");
-*/
+
 console.log("Number type to boolean................");
 let no=-1; //if no is 0 then boolean type value is false otherwise value is true
 console.log("before type of no="+typeof no+"    before value of no="+no);
@@ -54,3 +55,42 @@ let S="1234"; //if an empty string then boolean type value if false otherwise it
 console.log("before type of S="+typeof S+"  before value of S="+S);
 let b=Boolean(S);
 console.log("after type of b="+typeof b+"  after value of b="+b);
+*/
+console.log("************************************************Operation**************************************\n")
+
+//basic operations.................
+let num=10;
+let negativenum=-num;
+console.log("negativenum="+negativenum);
+//arithmatic operations.................
+console.log("add="+(90+900));
+console.log("sub="+(900-9));
+console.log("mul="+(90*90));
+console.log("div="+(1000/20));
+console.log("reminder="+(300%20));
+console.log("power="+(5**2));
+
+//string concatenation...............
+let a="hello!"
+let b=" javascript"
+console.log("string="+(a+b));
+
+console.log("ans="+"1"+2); //ans=12
+console.log("ans="+1+"2");//ans=12
+console.log("ans="+"1"+2+2);//ans=122 
+console.log(1+2+"2");//ans is 32
+
+// "+" convert the type................. 
+console.log(true);// true
+console.log(+true);// 1
+console.log(+false); // 0
+console.log(+"");// 0
+
+//increment and decrement operation..................
+let x=12;
+x++;
+console.log("x="+x)
+++x;
+console.log("x="+x)
+x--;
+console.log("decrement="+x)
